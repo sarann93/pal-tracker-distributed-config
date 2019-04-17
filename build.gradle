@@ -60,5 +60,12 @@ subprojects {
             exceptionFormat = 'full'
         }
     }
+    bootRun.environment([
+            "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
+    ])
+
+    springBoot {
+        buildInfo()
+    }
 }
 
