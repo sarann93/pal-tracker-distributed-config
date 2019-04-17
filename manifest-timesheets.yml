@@ -11,3 +11,4 @@ applications:
   - tracker-timesheets-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
+    management.endpoint.health.show-details: always
